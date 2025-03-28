@@ -21,10 +21,10 @@ const Footer = () => {
               >
                 <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
               </svg>
-              <span>PawFriends</span>
+              <span>PetShielders</span>
             </div>
             <p className="footer-description">
-              Connecting loving homes with pets in need since 2010. Our mission is to reduce the number of homeless pets
+              Connecting loving homes with pets in need since 2025. Our mission is to reduce the number of homeless pets
               through adoption, education, and spay/neuter programs.
             </p>
             <div className="social-links">
@@ -171,7 +171,7 @@ const Footer = () => {
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                   <polyline points="22,6 12,13 2,6"></polyline>
                 </svg>
-                <span>info@pawfriends.com</span>
+                <span>info@PetShielders.com</span>
               </li>
             </ul>
             <div className="hours">
@@ -183,7 +183,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} PawFriends. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} PetShielders. All rights reserved.</p>
           <div className="footer-bottom-links">
             <Link to="/privacy-policy">Privacy Policy</Link>
             <Link to="/terms-of-service">Terms of Service</Link>

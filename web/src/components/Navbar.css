@@ -42,6 +42,31 @@
 .navbar-actions {
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-name {
+  font-weight: 500;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #f97316;
+  color: #f97316;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: #f97316;
+  color: white;
 }
 
 .menu-toggle {
@@ -80,24 +105,24 @@
   bottom: -8px;
 }
 
+.menu-toggle.active .menu-toggle-icon {
+  background-color: transparent;
+}
+
+.menu-toggle.active .menu-toggle-icon::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.menu-toggle.active .menu-toggle-icon::after {
+  transform: rotate(-45deg);
+  bottom: 0;
+}
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
     z-index: 101;
-  }
-
-  .menu-toggle.active .menu-toggle-icon {
-    background-color: transparent;
-  }
-
-  .menu-toggle.active .menu-toggle-icon::before {
-    transform: rotate(45deg);
-    top: 0;
-  }
-
-  .menu-toggle.active .menu-toggle-icon::after {
-    transform: rotate(-45deg);
-    bottom: 0;
   }
 
   .navbar-menu {
