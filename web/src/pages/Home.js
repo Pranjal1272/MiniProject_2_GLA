@@ -12,7 +12,7 @@ const featuredPets = [
     breed: "Golden Retriever",
     age: 2,
     traits: ["Friendly", "Playful", "Good with kids"],
-    imageUrl: "https://via.placeholder.com/300x200?text=Max",
+    imageUrl: "/d2.jpg",
   },
   {
     _id: "2",
@@ -21,7 +21,7 @@ const featuredPets = [
     breed: "Siamese",
     age: 1,
     traits: ["Calm", "Independent", "Affectionate"],
-    imageUrl: "https://via.placeholder.com/300x200?text=Luna",
+    imageUrl: "/c2.jpg",
   },
   {
     _id: "3",
@@ -30,7 +30,7 @@ const featuredPets = [
     breed: "Beagle",
     age: 3,
     traits: ["Energetic", "Curious", "Friendly"],
-    imageUrl: "https://via.placeholder.com/300x200?text=Buddy",
+    imageUrl: "/d1.jpg",
   },
   {
     _id: "4",
@@ -39,7 +39,7 @@ const featuredPets = [
     breed: "Tabby",
     age: 4,
     traits: ["Playful", "Gentle", "Good with other cats"],
-    imageUrl: "https://via.placeholder.com/300x200?text=Oliver",
+    imageUrl: "/c1.jpg",
   },
 ]
 
@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div className="home-page">
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section" style={{ backgroundImage: "url('/rearview.jpg')" }}>
         <div className="hero-content container">
           <h1 className="hero-title">Find Your Perfect Companion</h1>
           <p className="hero-subtitle">Adopt, don't shop. Give a loving home to a pet in need.</p>

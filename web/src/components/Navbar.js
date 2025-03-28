@@ -28,7 +28,7 @@ const Navbar = () => {
           >
             <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
           </svg>
-          <span>PawFriends</span>
+          <span>PetShielders</span>
         </Link>
 
         <button className="menu-toggle" onClick={toggleMenu}>
@@ -39,12 +39,10 @@ const Navbar = () => {
           <Link to="/" className="navbar-link">
             Home
           </Link>
-          <Link to="/pets?type=dog" className="navbar-link">
-            Dogs
+          <Link to="/pets" className="navbar-link">
+            Get a Friend
           </Link>
-          <Link to="/pets?type=cat" className="navbar-link">
-            Cats
-          </Link>
+         
           <Link to="/about" className="navbar-link">
             About Us
           </Link>
@@ -54,8 +52,8 @@ const Navbar = () => {
         </nav>
 
         <div className="navbar-actions">
-          <Link to="/donate" className="btn btn-primary">
-            Donate
+          <Link to="/Rescue" className="btn btn-primary">
+            Rescue
           </Link>
         </div>
       </div>
@@ -64,4 +62,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-

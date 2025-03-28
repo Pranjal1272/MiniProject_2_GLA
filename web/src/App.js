@@ -12,6 +12,7 @@ import PetListing from "./pages/PetListing"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import NotFound from "./pages/NotFound"
+import RescuePage from "./pages/RescuePage"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/pets/:id" element={<PetDetails />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/Rescue" element={<RescuePage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
