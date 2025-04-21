@@ -49,11 +49,18 @@ const Navbar = () => {
           <Link to="/contact" className="navbar-link">
             Contact
           </Link>
+          
+          <Link to="/Rescue" className="navbar-link">
+            Rescue
+          </Link>
+        
         </nav>
 
+        
+        
         <div className="navbar-actions">
-          <Link to="/Rescue" className="btn btn-primary">
-            Rescue
+          <Link to="/Login" className="btn btn-primary">
+            Register/Login  
           </Link>
         </div>
       </div>
